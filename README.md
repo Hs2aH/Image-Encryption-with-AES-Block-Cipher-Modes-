@@ -16,14 +16,14 @@ For a cybersecurity student, this project is an excellent way to demonstrate a d
 
 + ECB (Electronic Codebook) Mode: This mode encrypts each block independently. As a result, identical plaintext blocks (e.g., areas of uniform color in an image) will produce identical ciphertext blocks, revealing patterns in the encrypted image. This visually proves why ECB is considered insecure for most applications.
 
-+ Chaining and Stream Modes (CBC, CFB, OFB, CTR): These modes introduce randomness by linking the encryption of each block to the previous one (or to a nonce), resulting in a visually indistinguishable, noise-like output. This demonstrates the critical role of Initialization Vectors (IVs) and nonces in providing confidentiality and making the ciphertext robust against pattern analysis.
+* Chaining and Stream Modes (CBC, CFB, OFB, CTR): These modes introduce randomness by linking the encryption of each block to the previous one (or to a nonce), resulting in a visually indistinguishable, noise-like output. This demonstrates the critical role of Initialization Vectors (IVs) and nonces in providing confidentiality and making the ciphertext robust against pattern analysis.
 
 ### 🛠️ Prerequisites
 This project requires a few Python libraries. You can install them using pip:
 
     pip install pillow cryptography numpy
 
-# 🚀 Usage
+### 🚀 Usage
 
 1. Clone the repository to your local machine.
 
@@ -47,5 +47,5 @@ The script will automatically generate five new encrypted images in your directo
 
     ctr_encrypted.png
 
-# ⚠️ Security Notes
+### ⚠️ Security Notes
 This project focuses on the confidentiality provided by different block cipher modes. In a real-world application, it is crucial to also ensure data integrity and authenticity. For this, you would typically use an authenticated encryption mode like AES-GCM or combine a confidentiality mode with a message authentication code like HMAC. This ensures that the data has not been tampered with.
