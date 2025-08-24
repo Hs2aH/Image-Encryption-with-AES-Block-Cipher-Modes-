@@ -31,9 +31,9 @@ This project requires a few Python libraries. You can install them using pip:
 
 3. Update the input_image variable in the Python script to point to your image file.
 
-4. Run the script from your terminal:
-
-    python enc.py
+4. Run the script from your terminal
+   
+        python enc.py
 
 The script will automatically generate five new encrypted images in your directory:
 
