@@ -1,4 +1,4 @@
-# Image Encryption with AES Block Cipher Modes 🖼️🔐=>
+# Image Encryption with AES Block Cipher Modes 🖼️🔐
 
 This project is a Python script that demonstrates the principles of symmetric-key encryption by applying the Advanced Encryption Standard (AES) algorithm to images.It showcases the key differences between various block cipher modes of operation, specifically ECB, CBC, CFB, OFB, and CTR.
 
@@ -49,3 +49,5 @@ The script will automatically generate five new encrypted images in your directo
 
 ### ⚠️ Security Notes
 This project focuses on the confidentiality provided by different block cipher modes. In a real-world application, it is crucial to also ensure data integrity and authenticity. For this, you would typically use an authenticated encryption mode like AES-GCM or combine a confidentiality mode with a message authentication code like HMAC. This ensures that the data has not been tampered with.
+
+Done by *hs2ah*
