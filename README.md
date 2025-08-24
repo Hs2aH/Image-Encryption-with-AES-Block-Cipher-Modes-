@@ -2,7 +2,7 @@
 
 This project is a Python script that demonstrates the principles of symmetric-key encryption by applying the Advanced Encryption Standard (AES) algorithm to images.It showcases the key differences between various block cipher modes of operation, specifically ECB, CBC, CFB, OFB, and CTR.
 
-### 💡 Key Features =>
+### 💡 Key Features 
 
 1. Multi-Mode Encryption: Encrypts an image using five different AES modes.
 2. AES-256: Implements the robust AES algorithm with a 256-bit key.
